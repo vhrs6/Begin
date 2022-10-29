@@ -2,27 +2,28 @@ import java.util.*;
 class Main{
 	 public static void main(String[] args){
 		Scanner in = new Scanner(System.in);
-		System.out.println("Enter sides : ");
+		System.out.print("Enter sides : ");
 		 double x = in.nextDouble();
 	     double y = in.nextDouble();
 		System.out.print("Area OR Volume ? : ");
-		String type = in.nextLine();
-		if (type == Area){
+		int type = in.nextInt();
+		if (type == 1){
 		System.out.println("Enter Sides : ");
 		    int sides = in.nextInt();
+		    int type1 = in.nextInt();
 		    switch (sides){
 		        case 1:
 		        case 2 :System.out.println("Error");
 		        break;
-		        case 3: System.out.println("Enter Type of Triangle");
-		        int type1 = in.nextInt();
+		        case 3: 
 		        switch (type1){
-		            case 1 : AT(x,y);
-		                case 2:AEqT(x);
-		                    case 3:AIsT(x,y);
+		            case 1 : System.out.println(AT(x,y));
+		                case 2: System.out.println(AEqT(x));
+		                    case 3:System.out.println(AIsT(x,y));
 		        }
 		    }
 		}
+		
 	}
 	static double AR(double a ,double b){   //AreaRectangle
 		double area = a * b;
