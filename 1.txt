@@ -23,10 +23,6 @@ class Main{
 		        }
 		    }
 		}
-		/*double x = in.nextDouble();
-		double y = in.nextDouble();
-		double Req = volumeCylinder(x,y);
-		System.out.print(Req);*/
 	}
 	static double AR(double a ,double b){   //AreaRectangle
 		double area = a * b;
