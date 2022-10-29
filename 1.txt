@@ -1,0 +1,58 @@
+import java.util.*;
+class Main{
+	 public static void main(String[] args){
+		Scanner in = new Scanner(System.in);
+		double x = in.nextDouble();
+		double y = in.nextDouble();
+		double Req = ;
+		System.out.print(Req);
+	}
+	static double AreaRectangle(double a ,double b){
+		double area = a * b;
+		return area;
+	}
+	static double AreaCircle(double r){
+	    double area = 3.14*r*r;
+	    return area;
+	}
+	static double AreaTriangle(double a ,double b){
+		double area = 0.5 * a * b;
+		return area;
+	}
+		static double AreaEqTriangle(double a){
+		double area = (1.73/4) * a * a;
+		return area;
+	}
+	static double AreaIsoscelesTriangle(double a ,double b){
+		double area = (a * b)/2;
+		return area;
+	}
+	static double perimeterCircle(double a){
+		double p = 2*3.14*a;
+		return p;
+	}
+	static double perimeter4side(double a ,double b,double c, double d){
+		double p = a + b +c+d;
+		return p;
+	}
+	static double volumeCone(double r ,double h){
+		double v = (3.14 * r * r * h)/3;
+		return v;
+	}
+	static double volumeCylinder(double r ,double h){
+		double v = 3.14*r *r* h;
+		return v;
+	}
+	static double volumeSphere(double r){
+		double v = (4/3)*3.14*r *r* r;
+		return v;
+	}
+	static double volumePyramid(double l ,double w , double h){
+		double v = (l*w* h)/3;
+		return v;
+	}
+		static double volumePrism(double b , double h){
+		double v = b*h;
+		return v;
+	}
+}
