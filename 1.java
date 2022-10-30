@@ -13,6 +13,7 @@ class Main{
 		    int sides = in.nextInt();
 		    switch (sides){
 		        case 0:System.out.println(AC(x));
+		        break;
 		        case 1:
 		        case 2 :System.out.println("Error");
 		        break;
@@ -51,6 +52,7 @@ class Main{
 		    int sides = in.nextInt();
 		    switch (sides){
 		        case 0:System.out.println(perimeterCircle(x));
+		        break;
 		        case 1:
 		        case 2 :System.out.println("Error");
 		        break;
